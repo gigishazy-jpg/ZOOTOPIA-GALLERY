@@ -74,6 +74,8 @@ header{
     text-align: center;
     background-image: url(./zootopia\ 2\ group.jpg);
     background-size: cover;
+    background-clip: text;
+        color: transparent;
 }
 header a{
     text-decoration: none;
