@@ -1,33 +1,56 @@
+body{
+    background-color:coral;
+}
+
+
+
+
 .box1{
     background-color: bisque;
     height: 600px;
     width: 400px;
     margin :auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 .box2{
     background-color: rgb(67, 66, 68);
-    height: 400px;
-    width: 400px;
-    margin :block;
+    height: 600px;
+    margin:auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    box-sizing:border-box;
 
 }
 .box3{
     background-color:orange;
-    height:400px;
-    width:400px;
-    margin:auto;
+    height:600px;
+    margin :auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .box4{
     background-color:skyblue;
-    height:800px;
-    width:800px;
-    margin:left;
+    height:600px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    margin:auto;
+    box-sizing: border-box;
+}
+.box5{
+    background-color:seagreen;
+    height:600px;
+    text-align: center;
+    padding: 10px;
+    margin:auto;
+    box-sizing: border-box;
+}
+.characters1{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap:5px;
+    align-items:start;
+    
 }
