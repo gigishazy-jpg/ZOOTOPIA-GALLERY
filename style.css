@@ -75,8 +75,15 @@ header{
     background-image: url(./zootopia\ 2\ group.jpg);
     background-size: cover;
     background-clip: text;
-        color: transparent;
+     color: transparent;
+     animation:animate 20s linear infinite;
 }
+
+
+
+
+
+
 header a{
     text-decoration: none;
      color: inherit;
