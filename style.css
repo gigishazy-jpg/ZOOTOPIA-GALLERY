@@ -67,10 +67,10 @@ body{
     margin-bottom: 20px;
 }
 header{
-    background-color: #4caf50;
+    background-color: hwb(34 5% 51%);
     color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 24px 0;
+    box-shadow: 0 4px 6px rgba(173, 9, 9, 0.1);
+    padding: 5px 0;
     text-align: center;
 }
 header a{
@@ -82,7 +82,7 @@ header h1{
     margin: 0%;
 }
 nav{
-    background-color: #343a40;
+    background-color: #1062b4;
     text-align: center;
     padding: 12;
 }
