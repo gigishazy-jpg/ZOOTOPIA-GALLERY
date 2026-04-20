@@ -11,25 +11,26 @@ body{
     width: 400px;
     margin :auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 .box2{
     background-color: rgb(67, 66, 68);
     height: 400px;
     width: 400px;
-    margin:auto;
+    margin:0%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     max-width:250px;
+    
 
 }
 .box3{
     background-color:orange;
     height:400px;
     width:400px;
-    margin :auto;
+    margin :0%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     max-width: 250px;
     
 }
@@ -38,10 +39,9 @@ body{
     height:400px;
     width:400px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin:auto;
-    max-width: 250px;
-    margin-top: 10;
+    max-width: 350px;
 }
 .box5{
     background-color:seagreen;
@@ -50,8 +50,8 @@ body{
     text-align: center;
     padding: 10px;
     max-width: 250px;
-    margin:auto;
-    margin-top: 10px;
+    margin:0%;
+    margin-top: 0%;
 }
 .characters1{
     display:grid;
@@ -59,4 +59,8 @@ body{
     padding: 10px;
     gap:5px;
     
+}
+.characters1 h2{
+    text-align: center;
+    font-size: x-large;
 }
