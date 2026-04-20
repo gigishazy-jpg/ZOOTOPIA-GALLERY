@@ -41,7 +41,7 @@ body{
     text-align: center;
     padding: 10px;
     margin:auto;
-    max-width: 350px;
+    max-width: 250px;
 }
 .box5{
     background-color:seagreen;
@@ -57,7 +57,7 @@ body{
     display:grid;
     grid-template-columns: repeat(4, 350px);
     padding: 10px;
-    gap:5px;
+    gap:10px;
     
 }
 .characters1 h2{
