@@ -74,15 +74,15 @@ header{
     text-align: center;
     background-image: url(./zootopia\ 2\ group.jpg);
     background-size: cover;
-    background-clip: text;
+    background-clip: header;
      color: transparent;
      animation:animate 20s linear infinite;
 }
-
-
-
-
-
+@keyframes animate{
+    to{ 
+        background-position-x:-500px;
+    }
+}
 
 header a{
     text-decoration: none;
@@ -93,7 +93,6 @@ header h1{
     margin: 0%;
 }
 nav{
-    background-color: #1062b4;
     text-align: center;
     padding: 12px;
 
