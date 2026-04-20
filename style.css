@@ -7,7 +7,7 @@ body{
 
 .box1{
     background-color: bisque;
-    height: 600px;
+    height: 500px;
     width: 400px;
     margin :auto;
     text-align: center;
@@ -63,4 +63,12 @@ body{
 .characters1 h2{
     text-align: center;
     font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+header{
+    background-color: #4caf50;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+    text-align: center;
