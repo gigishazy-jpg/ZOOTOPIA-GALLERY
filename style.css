@@ -72,6 +72,8 @@ header{
     box-shadow: 0 4px 6px rgba(173, 9, 9, 0.1);
     padding: 5px 0;
     text-align: center;
+    background-image: url(./zootopia\ 2\ group.jpg);
+    background-size: cover;
 }
 header a{
     text-decoration: none;
@@ -84,5 +86,16 @@ header h1{
 nav{
     background-color: #1062b4;
     text-align: center;
-    padding: 12;
+    padding: 12px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+nav a:hover{
+    text-decoration:wavy;
+    color:aqua;
 }
