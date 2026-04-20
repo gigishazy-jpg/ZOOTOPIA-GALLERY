@@ -1,0 +1,33 @@
+.box1{
+    background-color: bisque;
+    height: 600px;
+    width: 400px;
+    margin :auto;
+    text-align: center;
+    padding: 20px;
+}
+.box2{
+    background-color: rgb(67, 66, 68);
+    height: 400px;
+    width: 400px;
+    margin :block;
+    text-align: center;
+    padding: 20px;
+
+}
+.box3{
+    background-color:orange;
+    height:400px;
+    width:400px;
+    margin:auto;
+    text-align: center;
+    padding: 20px;
+}
+.box4{
+    background-color:skyblue;
+    height:800px;
+    width:800px;
+    margin:left;
+    text-align: center;
+    padding: 20px;
+}
