@@ -1,5 +1,25 @@
 body{
     background-color:coral;
+    padding:0%;
+    margin:0%;
+    overflow:hidden;
+}
+.focus-gallery{
+    display: flex;
+    height:100vh;
+    align-items: center;
+    gap: 200px;
+    padding:0 calc( 50vw - 400px);
+    scrollbar-width: none;
+
+}
+.focus-gallery::-webkit-scrollbar{
+    display: none;
+}
+.gallery1{
+    flex:0 0 300px;
+    height: 400px;
+    background: linear-gradient(45deg,)
 }
 
 
@@ -58,14 +78,8 @@ body{
     grid-template-columns: repeat(4, 350px);
     padding: 10px;
     gap:10px;
+}
     
-}
-.characters1 h2{
-    text-align: center;
-    font-size: x-large;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 header{
     background-color: hwb(34 5% 51%);
     color: white;
@@ -91,6 +105,7 @@ header a{
 header h1{
     font-size: 40px;
     margin: 0%;
+    color:black;
 }
 nav{
     text-align: center;
