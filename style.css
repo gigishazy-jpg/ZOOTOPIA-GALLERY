@@ -1,37 +1,17 @@
 body{
     background-color:coral;
-    padding:0%;
-    margin:0%;
-    overflow:hidden;
-}
-.focus-gallery{
-    display: flex;
-    height:100vh;
-    align-items: center;
-    gap: 200px;
-    padding:0 calc( 50vw - 400px);
-    scrollbar-width: none;
 
 }
-.focus-gallery::-webkit-scrollbar{
-    display: none;
-}
-.gallery1{
-    flex:0 0 300px;
-    height: 400px;
-    background: linear-gradient(45deg,)
-}
-
-
-
 
 .box1{
     background-color: bisque;
-    height: 500px;
+    height: 600px;
     width: 400px;
     margin :auto;
     text-align: center;
     padding: 10px;
+    border-radius: 150px;
+    
 }
 .box2{
     background-color: rgb(67, 66, 68);
@@ -41,6 +21,7 @@ body{
     text-align: center;
     padding: 10px;
     max-width:250px;
+    border-radius: 50px;
     
 
 }
@@ -52,6 +33,7 @@ body{
     text-align: center;
     padding: 10px;
     max-width: 250px;
+    border-radius: 50px;
     
 }
 .box4{
@@ -62,6 +44,7 @@ body{
     padding: 10px;
     margin:auto;
     max-width: 250px;
+        border-radius: 50px;
 }
 .box5{
     background-color:seagreen;
@@ -72,6 +55,7 @@ body{
     max-width: 250px;
     margin:0%;
     margin-top: 0%;
+    border-radius: 50px;
 }
 .characters1{
     display:grid;
@@ -86,16 +70,6 @@ header{
     box-shadow: 0 4px 6px rgba(173, 9, 9, 0.1);
     padding: 5px 0;
     text-align: center;
-    background-image: url(./zootopia\ 2\ group.jpg);
-    background-size: cover;
-    background-clip: header;
-     color: transparent;
-     animation:animate 20s linear infinite;
-}
-@keyframes animate{
-    to{ 
-        background-position-x:-500px;
-    }
 }
 
 header a{
@@ -122,3 +96,86 @@ nav a:hover{
     text-decoration:wavy;
     color:aqua;
 }
+/* ── GALLERY SECTION ── */
+.focus-gallery {
+    padding: 30px 20px 50px;
+}
+ 
+.focus-gallery {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+ 
+/* ── GALLERY GRID ── */
+.focus-gallery  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 240px); /* fixed row height = even rows */
+    gap: 12px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+ 
+/* hide radio inputs */
+.focus-gallery[type="radio"] {
+    display: none;
+}
+ 
+/* card fills its grid cell exactly */
+.focus-gallery {
+    width: 500%;
+    height: 500%;
+    border-radius: 50px;
+    overflow: hidden
+}
+ 
+/* label fills the card */
+.focus-gallery img{
+    display: block;
+    width: 500%;
+    height: 500%;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+/* image fills label completely — no gaps, no misalignment */
+.focus-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* crops to fill, never stretches */
+    display: block;
+    border-radius: 50px;
+    transition: transform 0.4s ease;
+}
+ h2{
+    text-align: center;
+     color: white;
+     font-size: 28px;
+     margin-bottom: 20px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+ }
+/* hover zoom */
+.focus-gallery img:hover {
+    transform: scale(1.05);
+}
+.focus-gallery img{
+    height: 200px;
+    width:800px;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    margin:0%;
+    margin-top: 0%;
+    
+}
+ 
+
