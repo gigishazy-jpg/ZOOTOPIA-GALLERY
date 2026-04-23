@@ -1,232 +1,230 @@
 body {
-  background-color: coral;
+    background-color: coral;
 }
 
 .box1 {
-  background-color: bisque;
-  height: 600px;
-  width: 400px;
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-  border-radius: 150px;
+    background-color: bisque;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 150px;
 }
 
 .box2 {
-  background-color: rgb(67, 66, 68);
-  height: 400px;
-  width: 400px;
-  margin: 0%;
-  text-align: center;
-  padding: 10px;
-  max-width: 250px;
-  border-radius: 50px;
+    background-color: rgb(67, 66, 68);
+    height: 400px;
+    width: 400px;
+    margin: 0%;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    border-radius: 50px;
 }
 
 .box3 {
-  background-color: orange;
-  height: 400px;
-  width: 400px;
-  margin: 0%;
-  text-align: center;
-  padding: 10px;
-  max-width: 250px;
-  border-radius: 50px;
+    background-color: orange;
+    height: 400px;
+    width: 400px;
+    margin: 0%;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    border-radius: 50px;
 }
 
 .box4 {
-  background-color: skyblue;
-  height: 400px;
-  width: 400px;
-  text-align: center;
-  padding: 10px;
-  margin: auto;
-  max-width: 250px;
-  border-radius: 50px;
+    background-color: skyblue;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    max-width: 250px;
+    border-radius: 50px;
 }
 
 .box5 {
-  background-color: seagreen;
-  height: 400px;
-  width: 400px;
-  text-align: center;
-  padding: 10px;
-  max-width: 250px;
-  margin: 0%;
-  margin-top: 0%;
-  border-radius: 50px;
+    background-color: seagreen;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    margin: 0%;
+    margin-top: 0%;
+    border-radius: 50px;
 }
 
 #characters1 {
-  display: grid;
-  grid-template-columns: repeat(4, 350px);
-  padding: 10px;
-  gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    padding: 10px;
+    gap: 10px;
 }
 
 header {
-  background-color: hwb(34 5% 51%);
-  color: white;
-  box-shadow: 0 4px 6px rgba(173, 9, 9, 0.1);
-  padding: 5px 0;
-  text-align: center;
+    background-color: hwb(34 5% 51%);
+    color: white;
+    box-shadow: 0 4px 6px rgba(173, 9, 9, 0.1);
+    padding: 5px 0;
+    text-align: center;
 }
 
 header a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 header h1 {
-  font-size: 40px;
-  margin: 0%;
-  color: black;
+    font-size: 40px;
+    margin: 0%;
+    color: black;
 }
 
 nav {
-  text-align: center;
-  padding: 12px;
+    text-align: center;
+    padding: 12px;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
 }
 
 nav a:hover {
-  text-decoration: wavy;
-  color: aqua;
+    text-decoration: wavy;
+    color: aqua;
 }
 
 /* ── GALLERY SECTION ── */
 .focus-gallery {
-  padding: 30px 20px 50px;
+    padding: 30px 20px 50px;
 }
 
 .focus-gallery {
-  text-align: center;
-  color: white;
-  font-size: 28px;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .focus-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  gap: 12px;
-  max-width: 860px;
-  margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 12px;
+    max-width: 860px;
+    margin: auto;
 }
 
 /* hide radio inputs */
 .focus-gallery[type="radio"] {
-  display: none;
+    display: none;
 }
 
-/* card fills its grid cell exactly */
 .focus-gallery {
-  width: 500%;
-  height: 500%;
-  border-radius: 50px;
-  overflow: hidden;
+    width: 500%;
+    height: 500%;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 /* label fills the card */
 .focus-gallery img {
-  display: block;
-  width: 500%;
-  height: 500%;
-  cursor: pointer;
-  border-radius: 50px;
-  border: 3px solid transparent;
-  overflow: hidden;
-  transition:
-    border-color 0.3s ease,
-    box-shadow 0.3s ease;
+    display: block;
+    width: 500%;
+    height: 500%;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    overflow: hidden;
+    transition: border-color 0.3s ease,
+
 }
 
 /* image fills label completely — no gaps, no misalignment */
 .focus-gallery img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* crops to fill, never stretches */
-  display: block;
-  border-radius: 50px;
-  transition: transform 0.4s ease;
-  padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* crops to fill, never stretches */
+    display: block;
+    border-radius: 50px;
+    transition: transform 0.4s ease;
+
 }
 
 h2 {
-  text-align: center;
-  color: white;
-  font-size: 28px;
-  margin-bottom: 0px;
-  letter-spacing: 2px;
-  font-family: "Arial", sans-serif;
-  text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
 }
 
 .focus-gallery img:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .focus-gallery img {
-  height: 200px;
-  width: 800px;
-  text-align: center;
-  padding: 10px;
-  max-width: 250px;
-  margin: 0%;
-  margin-top: 0%;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    margin: 0%;
+    margin-top: 0%;
 
 }
 
 .box1 img {
-  height: 300px;
-  width: 300px;
-  margin: auto;
-  text-align: center;
-  padding: 10px;
-  border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 150px;
 }
 
 .biography h2 {
-  text-align: center;
-  color: white;
-  font-size: 48px;
-  margin-bottom: 0px;
-  letter-spacing: 2px;
-  font-family: "Arial", sans-serif;
-  text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
 }
 
 .biography {
-  margin-block-start: 20px;
-  gap: 20px;
-  padding: 20px;
+    margin-block-start: 20px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .box1 p {
-  font-size: 18px;
-  color: rgb(36, 2, 63);
-  text-align: center;
-  padding: 10px;
+    font-size: 18px;
+    color: rgb(36, 2, 63);
+    text-align: center;
+    padding: 10px;
 }
 
 #contact1 {
-  margin-top: 50px;
-  padding-top: 20px;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 footer {
-  background-color: hwb(34 5% 51%);
-  color: white;
-  padding: 10px 0;
-  text-align: center;
+    background-color: hwb(34 5% 51%);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
